@@ -94,6 +94,9 @@ header * {
     box-shadow: 0 0 15px pink;
 }
 
+.mapsw3{
+    height: 100px;
+}
 .buttons{
     display: flex;
     flex-direction: column;
