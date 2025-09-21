@@ -45,6 +45,7 @@ and makes our marriage a means of khair in this dunya and success in the Aakhira
         </div>
     </header>
 
+    <hr><hr>
     <section id="eventNikah" data-aos="fade-up">
         <h2>✨ Aqd-e-Nikah ✨</h2>
         <ul>
@@ -71,14 +72,16 @@ and makes our marriage a means of khair in this dunya and success in the Aakhira
     </section>
 
 
+<hr>
+<hr>
 
 
     <section id="eventValima" data-aos="fade-up">
         <h2>✨ Dawat-e-Valima ✨</h2>
         <ul>
-            <li><strong>Date:</strong> October 12, 2025</li>
-            <li><strong>Time:</strong> At 12:15 PM , Lunch after Nikah</li>
-            <li><strong>Venue:</strong> A.K.S Convention Hall, Near GMIT College, Hadrur Road, Davangere </li>
+            <li><strong>Date:</strong> October 14, 2025</li>
+            <li><strong>Time:</strong> At 01:00 PM , Lunch after Nikah</li>
+            <li><strong>Venue:</strong> Grand Function Hall , Rupanagudi Road , Bellary </li>
         </ul>
         <p>Your presence and blessings will make our special day even more memorable.
             <br>
@@ -94,7 +97,7 @@ and makes our marriage a means of khair in this dunya and success in the Aakhira
             <a class="btn" href="tel:+917353207924" target="_blank">📞 Call</a>
 
         </div>
-        <div id="countdown" class="countdown-timer"></div>
+        <div id="countdown1" class="countdown-timer"></div>
         <br>
         <iframe src="https://www.google.com/maps/place/A.K.S+Convention+Hall+%7C%7C+Daavanagere/@14.4775047,75.8751746,691m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bba2f743a2b8885:0x9ab42a607402b4c2!8m2!3d14.4775047!4d75.8777495!16s%2Fg%2F11rr5hb117?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D" width="100%" height="200"></iframe>
     </section>
@@ -109,18 +112,28 @@ and makes our marriage a means of khair in this dunya and success in the Aakhira
     <!-- Countdown Script -->
     <script>
         const countdown = document.getElementById("countdown");
+         const countdown1 = document.getElementById("countdown1");
+
         const eventDate = new Date("October 12, 2025 12:15:00").getTime();
+        const eventDate1 = new Date("October 14, 2025 13:00:00").getTime();
+        
 
         setInterval(function () {
             const now = new Date().getTime();
-            const distance = (eventDate - now) > 0 ? (eventDate - now) : 0;
 
+            const distance = (eventDate - now) > 0 ? (eventDate - now) : 0;
             const days = Math.floor(distance / (1000 * 60 * 60 * 24));
             const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
             countdown.innerHTML = `⏳ ${days}d ${hours}h ${minutes}m ${seconds}s until the celebration!`;
+
+            const distance1 = (eventDate1 - now) > 0 ? (eventDate1 - now) : 0;
+            const days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
+            const hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
+            countdown1.innerHTML = `⏳ ${days1}d ${hours1}h ${minutes1}m ${seconds1}s until the celebration!`;
         }, 1000);
     </script>
 
