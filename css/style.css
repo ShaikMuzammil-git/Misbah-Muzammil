@@ -45,7 +45,7 @@ body::before {
 } */
 
 .header-content {
-    margin-top: -8rem;
+    margin-top: -5rem;
     text-align: center;
 }
 
@@ -190,4 +190,5 @@ footer {
         transform: translateY(-100px) rotate(360deg);
     }
 }
+
 
