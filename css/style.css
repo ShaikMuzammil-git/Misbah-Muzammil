@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /* outline: 2px solid red; */
+}
+
+
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
@@ -86,8 +94,12 @@ header * {
     box-shadow: 0 0 15px pink;
 }
 
+.buttons{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
 .buttons .btn {
-    display: inline-block;
     background: #ffb6c1;
     color: white;
     padding: 10px 20px;
@@ -174,5 +186,4 @@ footer {
         bottom: 100%;
         transform: translateY(-100px) rotate(360deg);
     }
-
 }
