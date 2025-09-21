@@ -42,7 +42,7 @@ body::before {
 }
 
 header {
-    background: url('../images/tomb1.png') no-repeat center top;
+    background: url('../images/tomb1.jpeg') no-repeat center top;
     background-color: pink;
     z-index: 1;
     background-size: cover;
@@ -174,4 +174,5 @@ footer {
         bottom: 100%;
         transform: translateY(-100px) rotate(360deg);
     }
+
 }
