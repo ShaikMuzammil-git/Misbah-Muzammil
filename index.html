@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome, Little Star !!!!!!</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- AOS Library for scroll animations -->
+    <link href="css/aos.css" rel="stylesheet">
+
+    <!-- Smooth Scroll -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Floating Emoji Decorations -->
+    <div class="floating-hearts">
+        <span>💖</span>
+        <span>🦋</span>
+        <span>💗</span>
+    </div>
+
+    <header>
+        <div class="header-content">
+            <h2 data-aos="fade-down">In the name of Allah, the Most Beneficent, the Most Merciful</h2>
+            <p data-aos="fade-up">
+                With hearts full of gratitude to Allah (SWT),
+We, Misba & Muzammil,
+warmly invite you to join us as we step into a new chapter of love, faith, and togetherness💖
+                <br><br>
+                ✨We pray that Allah (SWT) showers His endless mercy upon this union,
+fills our lives with sukoon (tranquility), rahmah (compassion), and barakah (abundance),
+writes for us a love that leads to Jannah,
+and makes our marriage a means of khair in this dunya and success in the Aakhirah✨
+            </p>
+            <div class="buttons" data-aos="fade-up">
+                <!-- <a class="btn" href="https://wa.me/917353207924?text=I%20will%20attend%20the%20ceremony!"
+                    target="_blank">RSVP💌</a> -->
+
+                <a href="#details" class="btn">Event Details 📍</a>
+                <br><br><br><br><br>
+            </div>
+        </div>
+    </header>
+
+    <!-- <section id="about" data-aos="fade-up">
+        <h2>To Suvarnkar's Little Angel</h2>
+        <p>
+            We feel so honoured, so blessed, and forever grateful that you chose us.
+            <br>
+            We promise to protect you, guide you and love you unconditionally every single moment of our lives.
+        </p>
+    </section> -->
+
+    <section id="details" data-aos="fade-up">
+        <h2>✨ Aqd-e-Nikah ✨</h2>
+        <ul>
+            <li><strong>Date:</strong> October 12, 2025</li>
+            <li><strong>Time:</strong> At 12:15 PM , Lunch after Nikah</li>
+            <li><strong>Venue:</strong> A.K.S Convention Hall, Near GMIT College, Hadrur Road, Davangere </li>
+        </ul>
+        <p>Your presence and blessings will make our special day even more memorable.
+            <br>
+            We look forward to celebrating this cherished occasion with you 🤍
+            <br>
+            With love & duas,
+            <br>
+            <b>Misba & Muzammil</b>
+        </p>
+        <div class="buttons" data-aos="fade-up">
+            <!-- <a class="btn" href="https://wa.me/917353207924?text=I%20will%20attend%20the%20ceremony!"
+                target="_blank">RSVP💌</a> -->
+            <a class="btn" href="tel:+917353207924" target="_blank">📞 Call</a>
+
+        </div>
+        <div id="countdown" class="countdown-timer"></div>
+        <br>
+        <iframe src="https://www.google.com/maps/place/A.K.S+Convention+Hall+%7C%7C+Daavanagere/@14.4775047,75.8751746,691m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bba2f743a2b8885:0x9ab42a607402b4c2!8m2!3d14.4775047!4d75.8777495!16s%2Fg%2F11rr5hb117?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D" width="100%" height="200"></iframe>
+    </section>
+
+    <!-- AOS Script -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Countdown Script -->
+    <script>
+        const countdown = document.getElementById("countdown");
+        const eventDate = new Date("October 12, 2025 12:15:00").getTime();
+
+        setInterval(function () {
+            const now = new Date().getTime();
+            const distance = (eventDate - now) > 0 ? (eventDate - now) : 0;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            countdown.innerHTML = `⏳ ${days}d ${hours}h ${minutes}m ${seconds}s until the celebration!`;
+        }, 1000);
+    </script>
+
+
+
+</body></html>
