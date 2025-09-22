@@ -45,7 +45,7 @@ body::before {
 } */
 
 .header-content {
-    margin-top: -15rem;
+    margin-top: -20rem;
     text-align: center;
 }
 
@@ -61,6 +61,15 @@ header {
     position: relative;
 }
 
+h2{
+    font-size: 1.6rem;
+}
+p{
+    font-weight: 500;
+}
+li{
+    font-weight: 500;
+}
 /* Pink overlay */
 header::before {
     content: "";
@@ -192,4 +201,3 @@ footer {
         transform: translateY(-100px) rotate(360deg);
     }
 }
-
