@@ -104,12 +104,13 @@ header * {
 }
 .buttons .btn {
     background: #ffb6c1;
-    color: white;
+    color: #4b2e2e;
     padding: 10px 20px;
     margin: 5px;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
+    box-shadow: var(--darkreader-background-000000, #000000) 2px -1px 6px 0px;
 }
 
 section {
