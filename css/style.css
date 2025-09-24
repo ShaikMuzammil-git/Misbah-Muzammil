@@ -71,10 +71,10 @@ h3{
     font-size: 1.6rem;
 }
 h3 i{
-    font-family: "Lavishly Yours", cursive;
+    font-family: "Dancing Script", cursive;
   font-style: normal;
-  font-size : 2rem ;
-  font-weight : 400 ;
+  font-size : 2.5rem ;
+  font-weight : 600 ;
 }
 p{
     /* font-weight: 500; */
@@ -220,6 +220,7 @@ footer {
         transform: translateY(-100px) rotate(360deg);
     }
 }
+
 
 
 
