@@ -114,6 +114,7 @@ hr{
     display: flex;
     flex-direction: column;
     height: auto;
+    padding: 0 10vw;
 }
 .buttons .btn {
   display: inline-block;
