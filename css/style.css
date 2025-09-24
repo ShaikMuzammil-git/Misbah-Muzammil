@@ -62,7 +62,7 @@ header {
 }
 
 h2{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 900 ;
 }
 h2 span{
@@ -220,5 +220,6 @@ footer {
         transform: translateY(-100px) rotate(360deg);
     }
 }
+
 
 
