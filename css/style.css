@@ -77,7 +77,7 @@ h3 i{
   font-weight : 600 ;
 }
   h3 span{
-    font-size:1.1rem;
+    font-size:1.4rem;
   font-family: "Dancing Script", cursive;
   } 
 p{
@@ -224,6 +224,7 @@ footer {
         transform: translateY(-100px) rotate(360deg);
     }
 }
+
 
 
 
