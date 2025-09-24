@@ -73,6 +73,7 @@ h3{
 }
 h3 i{
     font-family: cursive ;
+  font-size : 2rem ;
 }
 p{
     /* font-weight: 500; */
@@ -218,3 +219,4 @@ footer {
         transform: translateY(-100px) rotate(360deg);
     }
 }
+
