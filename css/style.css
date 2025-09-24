@@ -25,6 +25,7 @@ body::before {
     opacity: 0.2;
     z-index: -1;
     animation: floatStars 30s linear infinite;
+  filter: blur(2px);
 }
 
 @keyframes floatStars {
@@ -224,6 +225,7 @@ footer {
         transform: translateY(-100px) rotate(360deg);
     }
 }
+
 
 
 
